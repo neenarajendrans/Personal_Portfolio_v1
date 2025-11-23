@@ -55,7 +55,7 @@ const Portfolio = () => {
       id: 4,
       title: "User management System (Personal Project)",
       description:
-        "Full-stack user authentication & admin dashboard with role-based access, JWT secure login, profile image uploads via Cloudinary, and complete CRUD operations. Built with the MERN stack and Redux Toolkit for smooth global state management.",
+        "Full-stack authentication and admin dashboard with role-based access, JWT login, and complete CRUD. Built using MERN and Redux Toolkit.",
       image:
         User,
       tags: ["React.js", "Express.js", "Node.js", "MongoDB", "Redux Toolkit", 'JWT', "Cloudinary" ],
@@ -64,7 +64,7 @@ const Portfolio = () => {
       id: 5,
       title: "Student Management System (Personal Project)",
       description:
-        "A powerful admin panel for managing students with features like add/edit/delete, search & filter, responsive dashboard, and clean EJS templates. Built using TypeScript for type safety and scalability on the backend.",
+        "A robust student management admin panel with add/edit/delete, search & filter, and a responsive dashboard. Built with TypeScript-backed EJS for scalable backend development.",
       image:
         Student,
       tags: ["Express.js", "Node.js", "Typescript", "Ejs", "MongoDB" ],
@@ -73,7 +73,7 @@ const Portfolio = () => {
       id: 6,
       title: "Netflix Responsive Clone (Personal Project)",
       description:
-        "Pixel-perfect, fully responsive Netflix UI clone with smooth carousels, hover effects, category rows, and mobile-first design. A deep dive into advanced React and modern CSS (Flexbox + Grid) for creating premium streaming interfaces.",
+        "Pixel-perfect, fully responsive Netflix UI clone with smooth carousels, hover effects, and mobile-first design. Built using advanced React and modern CSS.",
       image:
         Netflix,
       tags: ["React.js", "CSS"],
