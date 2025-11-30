@@ -181,7 +181,7 @@ const services = [
   );
 
   const HomePage = () => (
-    <div className="min-h-screen flex items-center relative overflow-hidden">
+    <div className="min-h-[100dvh] flex items-center relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black to-transparent z-10"></div>
       <div
         className="absolute inset-0 bg-cover bg-center opacity-50"
@@ -225,7 +225,7 @@ const services = [
   );
 
   const AboutPage = () => (
-    <div className="min-h-screen pt-24 pb-16">
+    <div className="min-h-[100dvh] pt-24 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
           About Me
@@ -304,7 +304,7 @@ const services = [
   );
 
   const ServicesPage = () => (
-    <div className="min-h-screen pt-24 pb-16">
+    <div className="min-h-[100dvh] pt-24 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
           Services
@@ -329,7 +329,7 @@ const services = [
   );
 
   const ProjectsPage = () => (
-    <div className="min-h-screen pt-24 pb-16">
+    <div className="min-h-[100dvh] pt-24 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
           Projects
@@ -375,7 +375,7 @@ const services = [
 
  
 const ContactPage = () => (
-  <div className="min-h-screen flex flex-col justify-center items-center pt-20 pb-16 px-4">
+  <div className="min-h-[100dvh] flex flex-col justify-center items-center pt-20 pb-16 px-4">
     {/* Main Container */}
     <div className="w-full max-w-2xl">
 
